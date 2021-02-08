@@ -1,16 +1,59 @@
+/* ./styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  height: 100%;
+  display: grid;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+#__next {
+  height: 100%;
+  grid-row: 1/-1;
+  grid-column: 1/-1;
 }
 
-* {
-  box-sizing: border-box;
+:root {
+  --background: theme("colors.white");
+  --background-secondary: theme("colors.gray.50");
+
+  --primary-dark: theme("colors.gray.900");
+  --primary-medium: theme("colors.gray.700");
+  --primary-light: theme("colors.gray.500");
+}
+
+[data-theme="dark"] {
+  --background: theme("colors.black");
+  --background-secondary: theme("colors.gray.800");
+
+  --accent-dark: theme("colors.fuchsia.900");
+  --accent-medium: theme("colors.fuchsia.700");
+  --accent-light: theme("colors.fuchsia.500");
+
+  --primary-dark: theme("colors.gray.300");
+  --primary-medium: theme("colors.gray.200");
+  --primary-light: theme("colors.gray.100");
+}
+
+[data-theme="emerald"] {
+  --background: theme("colors.white");
+
+  --accent-dark: theme("colors.emerald.900");
+  --accent-medium: theme("colors.emerald.700");
+  --accent-light: theme("colors.emerald.500");
+}
+
+[data-theme="pink"] {
+  --background: theme("colors.gray.900");
+  --background-secondary: theme("colors.gray.800");
+
+  --accent-dark: theme("colors.pink.900");
+  --accent-medium: theme("colors.pink.700");
+  --accent-light: theme("colors.pink.500");
+
+  --primary-dark: theme("colors.gray.300");
+  --primary-medium: theme("colors.gray.200");
+  --primary-light: theme("colors.gray.100");
 }
