@@ -12,7 +12,7 @@ export default function Home() {
               <h2 className="text-3xl tracking-tight font-extrabold text-th-accent-medium sm:text-4xl">
                 From the blog
               </h2>
-              <p className="mt-3 max-w-2xl mx-auto text-xl text-th-gray-500 sm:mt-4">
+              <p className="mt-3 max-w-2xl mx-auto text-xl sm:mt-4">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa libero labore natus atque, ducimus sed.
               </p>
             </div>
@@ -29,10 +29,10 @@ export default function Home() {
                       </a>
                     </p>
                     <a href="#" className="block mt-2">
-                      <p className="text-xl font-semibold text-th-secondary-200">
+                      <p className="text-xl font-semibold">
                         Boost your conversion rate
                       </p>
-                      <p className="mt-3 text-base text-th-gray-500">
+                      <p className="mt-3 text-base">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto accusantium praesentium eius, ut atque fuga culpa, similique sequi cum eos quis dolorum.
                       </p>
                     </a>
@@ -45,13 +45,13 @@ export default function Home() {
                       </a>
                     </div>
                     <div className="ml-3">
-                      <p className="text-sm font-medium text-th-secondary-200">
+                      <p className="text-sm font-medium">
                         <a href="#" className="hover:underline">
                           Roel Aufderehar
                         </a>
                       </p>
-                      <div className="flex space-x-1 text-sm text-th-gray-500">
-                        <time datetime="2020-03-16">
+                      <div className="flex space-x-1 text-sm">
+                        <time dateTime="2020-03-16">
                           Mar 16, 2020
                         </time>
                         <span aria-hidden="true">
@@ -78,10 +78,10 @@ export default function Home() {
                       </a>
                     </p>
                     <a href="#" className="block mt-2">
-                      <p className="text-xl font-semibold text-th-secondary-200">
+                      <p className="text-xl font-semibold">
                         How to use search engine optimization to drive sales
                       </p>
-                      <p className="mt-3 text-base text-th-gray-500">
+                      <p className="mt-3 text-base">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis asperiores porro quaerat doloribus, eveniet dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.
                       </p>
                     </a>
@@ -94,13 +94,13 @@ export default function Home() {
                       </a>
                     </div>
                     <div className="ml-3">
-                      <p className="text-sm font-medium text-th-secondary-200">
+                      <p className="text-sm font-medium">
                         <a href="#" className="hover:underline">
                           Brenna Goyette
                         </a>
                       </p>
-                      <div className="flex space-x-1 text-sm text-th-gray-500">
-                        <time datetime="2020-03-10">
+                      <div className="flex space-x-1 text-sm">
+                        <time dateTime="2020-03-10">
                           Mar 10, 2020
                         </time>
                         <span aria-hidden="true">
@@ -127,10 +127,10 @@ export default function Home() {
                       </a>
                     </p>
                     <a href="#" className="block mt-2">
-                      <p className="text-xl font-semibold text-th-secondary-200">
+                      <p className="text-xl font-semibold">
                         Improve your customer experience
                       </p>
-                      <p className="mt-3 text-base text-th-gray-500">
+                      <p className="mt-3 text-base">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum voluptatem quo recusandae magni placeat saepe molestiae, sed excepturi cumque corporis perferendis hic.
                       </p>
                     </a>
@@ -143,13 +143,13 @@ export default function Home() {
                       </a>
                     </div>
                     <div className="ml-3">
-                      <p className="text-sm font-medium text-th-secondary-200">
+                      <p className="text-sm font-medium">
                         <a href="#" className="hover:underline">
                           Daniela Metz
                         </a>
                       </p>
-                      <div className="flex space-x-1 text-sm text-th-gray-500">
-                        <time datetime="2020-02-12">
+                      <div className="flex space-x-1 text-sm">
+                        <time dateTime="2020-02-12">
                           Feb 12, 2020
                         </time>
                         <span aria-hidden="true">
